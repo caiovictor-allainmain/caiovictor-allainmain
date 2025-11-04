@@ -1,1 +1,69 @@
+const somaAvaliativa = 0
+const filmes = [
+    titulo = "Shrek",
+    ano = 2001,
+    genero = "Animação/Comédia/Fantasia",
+    avaliacao = 8.6,
 
+
+    titulo = "Como Treinar o Seu Dragão",
+    ano = 2010,
+    genero = "Ficção Científica",
+    avaliacao = 8.0,
+
+
+    titulo = "Kung Fu Panda",
+    ano = 2008,
+    genero = "Animação/Ação/Aventura",
+    avaliacao =8.5,
+
+
+    titulo = "Madagascar",
+    ano = 2005,
+    genero = "Animação/Aventura/Comédia",
+    avaliacao =8.0,
+
+
+    titulo = "Gato de Botas 2: O Último Pedido",
+    ano = 2022,
+    genero = "Animação/Aventura/Comédia",
+    avaliacao =7.6,
+
+
+    titulo = "O Príncipe do Egito",
+    ano = 1998,
+    genero = "Animação/Drama/Musical",
+    avaliacao =7.8,
+
+
+
+    titulo = "A Fuga das Galinhas",
+    ano = 2000,
+    genero = "Animação Stop-motion/Comédia",
+    avaliacao =7.6,
+
+
+
+    titulo = "Megamente",
+    ano = 2010,
+    genero = "Animação/Comédia/Ação",
+    avaliacao =7.2,
+
+
+    titulo = "Os Croods",
+    ano = 2013,
+    genero = "Animação/Aventura/Comédia",
+    avaliacao =7.9,
+
+
+    titulo = "Os Sem-Floresta",
+    ano = 2006,
+    genero = "Animação/Comédia",
+    avaliacao =6.9,
+
+
+]
+for(let i = 0 ; i < filmes.length ; i++)
+console.log(1) {
+    somaAvaliativa += filmes[i].avaliacao
+}
